@@ -1,21 +1,8 @@
-# E6 — Estratégias de Coleta e Scraping
+# E6 - Estratégias de Coleta e Scraping
 
 **Objetivo:** entender como os dados são obtidos automaticamente da web, com e sem programação, e quando usar cada estratégia.
 
 **Ao final deste encontro você terá:** inspecionado um site com as ferramentas do navegador, coletado dados com uma extensão sem código e com Python pelas três estratégias de captura, e salvo o resultado em uma tabela.
-
----
-
-## Roteiro do encontro
-
-| Bloco | Duração | Conteúdo |
-| :--- | :--- | :--- |
-| 1. Como a web funciona e ética | 20 min | Conceitos, o fluxo de um robô e cuidados legais (E6.1 a E6.3) |
-| 2. Inspeção e no-code | 20 min | Ferramentas do navegador e extensões (E6.4 e E6.5) |
-| 3. As três estratégias em código | 40 min | API, metadados e conteúdo da página, páginas dinâmicas (E6.6 a E6.10) |
-| 4. Fechamento | 10 min | Escolha da ferramenta, autoavaliação e tarefa (E6.11 e E6.12) |
-
----
 
 ## E6.1 Conceitos antes de começar
 
@@ -140,7 +127,7 @@ Antes de coletar, descubra **onde** os dados estão. Teste nesta ordem, da mais 
 | **2. Metadados (`<head>`)** | Nas tags `<meta>` do cabeçalho do HTML | Quando basta título, descrição, data ou imagem principal |
 | **3. Conteúdo (`<body>`)** | No HTML visível da página | Quando não há API e os metadados não bastam |
 
-### Estratégia 1 — API
+### Estratégia 1 - API
 
 A página `/scroll` usa a API `https://quotes.toscrape.com/api/quotes?page=N`, que devolve JSON com as citações e um campo `has_next` dizendo se existe próxima página. Como não sabemos quantas páginas há, usamos um `while` (E3):
 
@@ -179,7 +166,7 @@ df.to_csv("citacoes_api.csv", index=False)
 print(f"{len(df)} citações salvas em citacoes_api.csv")
 ```
 
-### Estratégia 2 — Metadados
+### Estratégia 2 - Metadados
 
 O cabeçalho (`<head>`) do HTML guarda informações sobre a página que não aparecem no visual, como o título da aba e a descrição usada por buscadores e redes sociais.
 
@@ -201,7 +188,7 @@ print("Descrição:", descricao[:200] if descricao else "não encontrada")
 
 Sempre verifique se a tag existe (`if meta_descricao`) antes de usá-la: nem toda página tem todos os metadados, e acessar algo inexistente gera erro.
 
-### Estratégia 3 — Conteúdo da página
+### Estratégia 3 - Conteúdo da página
 
 Usamos os seletores que identificamos na aba **Elements** (E6.4):
 
@@ -354,9 +341,6 @@ Envie os arquivos para o seu repositório em `pensamento-computacional/e6/`, com
 
 ## Checklist do Encontro 6
 
-> [!NOTE]
-> No GitHub, as caixas de seleção de um arquivo `.md` não são clicáveis. Edite o arquivo trocando `[ ]` por `[x]`, ou copie a lista para uma **Issue** do seu repositório.
-
 - [ ] Sei explicar o que é web scraping e o fluxo de um robô de coleta
 - [ ] Conheço os cuidados éticos e legais (termos, `robots.txt`, ritmo, LGPD)
 - [ ] Inspecionei HTML e requisições pelas ferramentas do navegador
@@ -369,8 +353,8 @@ Envie os arquivos para o seu repositório em `pensamento-computacional/e6/`, com
 
 ## Links de apoio
 
-- [quotes.toscrape.com](https://quotes.toscrape.com) e [books.toscrape.com](https://books.toscrape.com) — sites para praticar
+- [quotes.toscrape.com](https://quotes.toscrape.com) e [books.toscrape.com](https://books.toscrape.com) - sites para praticar
 - [Documentação do HTTPX](https://www.python-httpx.org/)
 - [Documentação do Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Playwright para Python](https://playwright.dev/python/docs/intro)
-- [Ferramentas de desenvolvedor do Chrome — painel Network](https://developer.chrome.com/docs/devtools/network)
+- [Ferramentas de desenvolvedor do Chrome - painel Network](https://developer.chrome.com/docs/devtools/network)
