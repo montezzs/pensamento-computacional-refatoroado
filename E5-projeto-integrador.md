@@ -4,19 +4,6 @@
 
 **Ao final deste encontro você terá:** estruturado e executado uma análise completa sobre desempenho acadêmico, do problema ao gráfico, e documentado suas decisões em um relatório curto no seu repositório.
 
----
-
-## Roteiro do encontro
-
-| Bloco | Duração | Conteúdo |
-| :--- | :--- | :--- |
-| 1. Problema e preparação | 20 min | O desafio, a base de dados e o ambiente (E5.1 a E5.3) |
-| 2. Decomposição e abstração | 20 min | Etapas 1 e 2 (E5.4 e E5.5) |
-| 3. Lógica e análise | 35 min | Etapas 3 e 4 (E5.6 e E5.7) |
-| 4. Fechamento | 15 min | Limites da análise, apresentação e autoavaliação (E5.8 a E5.10) |
-
----
-
 ## E5.1 Conceitos antes de começar
 
 | Termo | O que é |
