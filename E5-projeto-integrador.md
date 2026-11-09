@@ -1,4 +1,4 @@
-# E5 — Projeto Final Integrador
+# E5 - Projeto Final Integrador
 
 **Objetivo:** aplicar decomposição, abstração, lógica e análise de dados em um problema acadêmico real.
 
@@ -31,10 +31,10 @@
 
 | Etapa do projeto | Encontro |
 | :--- | :--- |
-| Dividir o problema em partes investigáveis | E1 — Decomposição |
-| Escolher só os dados necessários | E2 — Abstração |
-| Criar e aplicar a regra de risco | E3 — Lógica (`for`, `if/else`) |
-| Resumir e visualizar os resultados | E4 — pandas e Plotly |
+| Dividir o problema em partes investigáveis | E1 - Decomposição |
+| Escolher só os dados necessários | E2 - Abstração |
+| Criar e aplicar a regra de risco | E3 - Lógica (`for`, `if/else`) |
+| Resumir e visualizar os resultados | E4 - pandas e Plotly |
 
 ---
 
@@ -125,7 +125,7 @@ uv run python gerar_alunos.py
 
 ---
 
-## E5.4 Etapa 1 — Decomposição
+## E5.4 Etapa 1 - Decomposição
 
 Em vez de atacar "desempenho acadêmico" como um bloco único, divida em perguntas menores, cada uma respondível com os dados:
 
@@ -142,7 +142,7 @@ Quais fatores se associam ao baixo desempenho?
 
 ---
 
-## E5.5 Etapa 2 — Abstração
+## E5.5 Etapa 2 - Abstração
 
 Carregue a base e veja quais colunas existem:
 
@@ -168,7 +168,7 @@ O `id` foi mantido: ele não identifica ninguém sozinho e permite, se necessár
 
 ---
 
-## E5.6 Etapa 3 — Padrões e algoritmo
+## E5.6 Etapa 3 - Padrões e algoritmo
 
 ### A regra de risco
 
@@ -207,7 +207,7 @@ Os dois jeitos são o mesmo algoritmo: percorrer cada aluno e testar a condiçã
 
 ---
 
-## E5.7 Etapa 4 — Análise e gráficos
+## E5.7 Etapa 4 - Análise e gráficos
 
 Responda cada pergunta da decomposição. Os blocos abaixo cobrem algumas; complete as demais.
 
@@ -294,7 +294,7 @@ No seu repositório, em `pensamento-computacional/e5/`, envie:
 - `relatorio.md`, seguindo este modelo:
 
 ```markdown
-# Projeto integrador — Desempenho acadêmico
+# Projeto integrador - Desempenho acadêmico
 
 ## Pergunta
 (a pergunta do desafio, com suas palavras)
@@ -335,9 +335,6 @@ Responda por escrito no final do `relatorio.md`, em uma seção **Reflexão**:
 
 ## Checklist do Encontro 5
 
-> [!NOTE]
-> No GitHub, as caixas de seleção de um arquivo `.md` não são clicáveis. Edite o arquivo trocando `[ ]` por `[x]`, ou copie a lista para uma **Issue** do seu repositório.
-
 - [ ] Gerei a base de dados e abri o notebook com o kernel da `.venv`
 - [ ] Escrevi a árvore de decomposição do problema
 - [ ] Descartei as colunas de dados pessoais e justifiquei as mantidas
@@ -348,6 +345,6 @@ Responda por escrito no final do `relatorio.md`, em uma seção **Reflexão**:
 
 ## Links de apoio
 
-- [pandas — introdução em 10 minutos](https://pandas.pydata.org/docs/user_guide/10min.html)
-- [Plotly Express — guia](https://plotly.com/python/plotly-express/)
+- [pandas - introdução em 10 minutos](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [Plotly Express - guia](https://plotly.com/python/plotly-express/)
 - [Lei Geral de Proteção de Dados (Lei nº 13.709/2018)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
