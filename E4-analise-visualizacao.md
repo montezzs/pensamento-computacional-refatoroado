@@ -1,20 +1,8 @@
-# E4 — Análise e Visualização Introdutória
+# E4 - Análise e Visualização Introdutória
 
 **Objetivo:** ter o primeiro contato com análise de dados, organizando uma tabela com pandas e criando gráficos com Plotly.
 
 **Ao final deste encontro você terá:** carregado uma base de dados, criado colunas novas, respondido perguntas com agrupamentos e filtros, e produzido gráficos interativos, tudo em um notebook no seu repositório.
-
----
-
-## Roteiro do encontro
-
-| Bloco | Duração | Conteúdo |
-| :--- | :--- | :--- |
-| 1. Preparação e tabela | 25 min | Ambiente, base de dados e DataFrame (E4.1 a E4.4) |
-| 2. Perguntas aos dados | 25 min | Colunas novas, filtros, valores únicos e agrupamentos (E4.5 a E4.7) |
-| 3. Gráficos e fechamento | 30 min | Plotly, escolha do gráfico, autoavaliação e tarefa (E4.8 a E4.10) |
-
----
 
 ## E4.1 Conceitos antes de começar
 
@@ -264,7 +252,7 @@ fig.write_html("grafico.html")   # arquivo interativo, abre em qualquer navegado
 
 ---
 
-## E4.9 Atividade — Perguntas para a base
+## E4.9 Atividade - Perguntas para a base
 
 **Formato:** individual ou em dupla. **Tempo:** 20 min.
 
@@ -344,9 +332,6 @@ Antes de enviar, limpe as saídas das células (botão **Clear All Outputs** no 
 
 ## Checklist do Encontro 4
 
-> [!NOTE]
-> No GitHub, as caixas de seleção de um arquivo `.md` não são clicáveis. Edite o arquivo trocando `[ ]` por `[x]`, ou copie a lista para uma **Issue** do seu repositório.
-
 - [ ] Preparei o ambiente e abri um notebook com o kernel da `.venv`
 - [ ] Carreguei um CSV em um DataFrame e inspecionei com `head`, `info` e `describe`
 - [ ] Criei colunas novas, incluindo uma booleana
@@ -360,6 +345,6 @@ Antes de enviar, limpe as saídas das células (botão **Clear All Outputs** no 
 
 ## Links de apoio
 
-- [pandas — introdução em 10 minutos](https://pandas.pydata.org/docs/user_guide/10min.html)
-- [pandas — agrupamentos (`groupby`)](https://pandas.pydata.org/docs/user_guide/groupby.html)
-- [Plotly Express — guia](https://plotly.com/python/plotly-express/)
+- [pandas - introdução em 10 minutos](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [pandas - agrupamentos (`groupby`)](https://pandas.pydata.org/docs/user_guide/groupby.html)
+- [Plotly Express - guia](https://plotly.com/python/plotly-express/)
