@@ -1,22 +1,8 @@
-# E1 — Introdução e Decomposição de Problemas
+# E1 - Introdução e Decomposição de Problemas
 
 **Objetivo:** entender o que é Pensamento Computacional e aprender a quebrar problemas grandes em partes tratáveis.
 
 **Ao final deste encontro você terá:** conhecido os quatro pilares do Pensamento Computacional, praticado a decomposição em um problema real e registrado o resultado em um arquivo do seu repositório.
-
----
-
-## Roteiro do encontro
-
-Pensado para turmas pequenas (1 a 4 pessoas); com turmas maiores, as atividades individuais podem ser feitas em duplas.
-
-| Bloco | Duração | Conteúdo |
-| :--- | :--- | :--- |
-| 1. Conceito e origem | 20 min | O que é Pensamento Computacional, de onde veio e os 4 pilares (E1.1 a E1.3) |
-| 2. Decomposição na prática | 30 min | Exemplos, a técnica passo a passo e a atividade da árvore de decomposição (E1.4 a E1.6) |
-| 3. Integração e fechamento | 25 min | Exemplo integrador, autoavaliação e tarefa (E1.7 a E1.9) |
-
----
 
 ## E1.1 Conceitos antes de começar
 
@@ -115,7 +101,7 @@ O projeto integrador (E5) percorre essas etapas em um único problema.
 
 ---
 
-## E1.6 Atividade — Árvore de decomposição
+## E1.6 Atividade - Árvore de decomposição
 
 **Formato:** individual (com mais pessoas, cada uma faz a sua e depois comparam). **Tempo:** 20 min.
 
@@ -211,9 +197,6 @@ Use blocos de código ou listas aninhadas do Markdown para a árvore. Registre e
 
 ## Checklist do Encontro 1
 
-> [!NOTE]
-> No GitHub, as caixas de seleção de um arquivo `.md` aparecem, mas não podem ser marcadas com clique. Para marcar, edite o arquivo trocando `[ ]` por `[x]`, ou copie a lista para uma **Issue** do seu repositório, onde as caixas são clicáveis.
-
 - [ ] Sei explicar o que é Pensamento Computacional e sua origem (Papert e Wing)
 - [ ] Sei diferenciar os quatro pilares com um exemplo de cada
 - [ ] Sei aplicar os quatro critérios para avaliar uma decomposição
@@ -225,4 +208,4 @@ Use blocos de código ou listas aninhadas do Markdown para a árvore. Registre e
 ## Links de apoio
 
 - Jeannette Wing, "Computational Thinking" (2006): [cs.cmu.edu/~15110-s13/Wing06-ct.pdf](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf)
-- [Fórum Econômico Mundial — The Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
+- [Fórum Econômico Mundial - The Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
