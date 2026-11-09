@@ -1,21 +1,8 @@
-# E3 — Lógica, Estruturas e Armazenamento (Python)
+# E3 - Lógica, Estruturas e Armazenamento (Python)
 
 **Objetivo:** usar variáveis, repetições, condições, listas, conjuntos e dicionários para coletar, verificar e guardar dados.
 
 **Ao final deste encontro você terá:** escrito e executado um pequeno programa em Python que coleta registros, descarta os inválidos e repetidos, trata erros e salva o resultado em um banco de dados simples.
-
----
-
-## Roteiro do encontro
-
-| Bloco | Duração | Conteúdo |
-| :--- | :--- | :--- |
-| 1. Preparação e fundamentos | 15 min | Ambiente e variáveis (E3.1 a E3.3) |
-| 2. Coleta e verificação | 30 min | `while`, `yield`, `for`, `if/else`, `continue`, `break` e estruturas de dados (E3.4 a E3.6) |
-| 3. Armazenamento | 20 min | Erros, JSON e TinyDB (E3.7 a E3.9) |
-| 4. Integração | 25 min | O programa completo, a leitura de script, autoavaliação e tarefa (E3.10 a E3.12) |
-
----
 
 ## E3.1 Conceitos antes de começar
 
@@ -82,7 +69,7 @@ O tipo importa: `"20" + 1` gera erro, porque não dá para somar texto e número
 
 ## E3.4 Coleta: `while` e `yield`
 
-### `while` — repetir enquanto uma condição for verdadeira
+### `while` - repetir enquanto uma condição for verdadeira
 
 Use quando **não se sabe de antemão** quantas repetições serão necessárias.
 
@@ -104,7 +91,7 @@ print("Estacionei na vaga", posicao)
 
 Na coleta, o `while` é usado para percorrer páginas de um site até não haver mais páginas, já que não sabemos quantas existem.
 
-### `yield` — entregar um item de cada vez
+### `yield` - entregar um item de cada vez
 
 Uma função com `yield` é um **gerador**: em vez de montar uma lista inteira e devolvê-la no final, ela entrega cada item assim que ele fica pronto, e pausa até o próximo ser pedido.
 
@@ -145,7 +132,7 @@ Repare que o "Processando" começa antes de a página 2 ser baixada. Em uma cole
 
 ## E3.5 Verificação: `for`, `if/else`, `continue` e `break`
 
-### `for` — percorrer cada elemento de uma sequência
+### `for` - percorrer cada elemento de uma sequência
 
 *No cotidiano:* entregar um convite para cada amigo de uma lista.
 
@@ -156,7 +143,7 @@ for amigo in amigos:
     print("Entregando convite para", amigo)
 ```
 
-### `if / elif / else` — tomar decisões
+### `if / elif / else` - tomar decisões
 
 *No cotidiano:* se estiver chovendo, levar guarda-chuva; senão, óculos de sol.
 
@@ -173,7 +160,7 @@ else:
 
 Operadores úteis em condições: `==` (igual), `!=` (diferente), `>`, `<`, `>=`, `<=`, `and`, `or`, `not`, e `in` (está contido).
 
-### `continue` — pular para o próximo elemento
+### `continue` - pular para o próximo elemento
 
 *No cotidiano:* ao corrigir provas, o professor pula as folhas em branco.
 
@@ -186,7 +173,7 @@ for nota in provas:
     print("Corrigindo prova com nota", nota)
 ```
 
-### `break` — interromper a repetição
+### `break` - interromper a repetição
 
 *No cotidiano:* ao achar o livro na estante, você para de procurar.
 
@@ -445,7 +432,7 @@ Rode o programa **duas vezes**. Na segunda, todos os registros aparecem como `[r
 
 ---
 
-## E3.11 Atividade — Lendo um script
+## E3.11 Atividade - Lendo um script
 
 **Formato:** individual ou em dupla. **Tempo:** 15 min.
 
@@ -544,9 +531,6 @@ Envie o arquivo modificado para o seu repositório em `pensamento-computacional/
 
 ## Checklist do Encontro 3
 
-> [!NOTE]
-> No GitHub, as caixas de seleção de um arquivo `.md` não são clicáveis. Edite o arquivo trocando `[ ]` por `[x]`, ou copie a lista para uma **Issue** do seu repositório.
-
 - [ ] Preparei o ambiente e executei um script com `uv run`
 - [ ] Sei usar `while` e explicar o que faz o `yield`
 - [ ] Sei usar `for`, `if/elif/else`, `continue` e `break`, inclusive combinados
@@ -559,7 +543,7 @@ Envie o arquivo modificado para o seu repositório em `pensamento-computacional/
 
 ## Links de apoio
 
-- [Tutorial oficial do Python em português — controle de fluxo](https://docs.python.org/pt-br/3/tutorial/controlflow.html)
-- [Tutorial oficial — estruturas de dados](https://docs.python.org/pt-br/3/tutorial/datastructures.html)
-- [Tutorial oficial — erros e exceções](https://docs.python.org/pt-br/3/tutorial/errors.html)
+- [Tutorial oficial do Python em português - controle de fluxo](https://docs.python.org/pt-br/3/tutorial/controlflow.html)
+- [Tutorial oficial - estruturas de dados](https://docs.python.org/pt-br/3/tutorial/datastructures.html)
+- [Tutorial oficial - erros e exceções](https://docs.python.org/pt-br/3/tutorial/errors.html)
 - [Documentação do TinyDB](https://tinydb.readthedocs.io/)
