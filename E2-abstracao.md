@@ -1,22 +1,8 @@
-# E2 — Abstração e Identificação do Essencial
+# E2 - Abstração e Identificação do Essencial
 
 **Objetivo:** separar o que é relevante do que é ruído em um problema.
 
 **Ao final deste encontro você terá:** aplicado a abstração em textos, tabelas de dados e código, e mostrado que a mesma informação pode ser essencial ou irrelevante dependendo do objetivo.
-
----
-
-## Roteiro do encontro
-
-Pensado para turmas pequenas (1 a 4 pessoas).
-
-| Bloco | Duração | Conteúdo |
-| :--- | :--- | :--- |
-| 1. Conceito | 20 min | O que é abstração e exemplos em textos, dados e código (E2.1 a E2.5) |
-| 2. Prática | 40 min | Filtro de ruído e desafio do festival (E2.6 e E2.7) |
-| 3. Fechamento | 15 min | Autoavaliação e tarefa (E2.8) |
-
----
 
 ## E2.1 Conceitos antes de começar
 
@@ -114,7 +100,7 @@ O cálculo interno fica escondido. Você usa abstrações assim o tempo todo: ao
 
 ---
 
-## E2.6 Atividade — Filtro de ruído
+## E2.6 Atividade - Filtro de ruído
 
 **Formato:** individual. **Tempo:** 15 min.
 
@@ -154,7 +140,7 @@ Campos como signo, cor favorita e time de futebol não são essenciais para nenh
 
 ---
 
-## E2.7 Desafio — Organizando um festival
+## E2.7 Desafio - Organizando um festival
 
 **Formato:** individual, resolvendo os três objetivos (com mais pessoas, cada uma pode começar por um objetivo diferente e depois todas comparam). **Tempo:** 25 min.
 
@@ -242,9 +228,6 @@ Escolha uma base de dados, planilha ou site que você usa com frequência no pro
 
 ## Checklist do Encontro 2
 
-> [!NOTE]
-> No GitHub, as caixas de seleção de um arquivo `.md` não são clicáveis. Edite o arquivo trocando `[ ]` por `[x]`, ou copie a lista para uma **Issue** do seu repositório.
-
 - [ ] Sei explicar o que é abstração e por que ela depende do objetivo
 - [ ] Diferencio informação essencial de ruído em textos, tabelas e código
 - [ ] Sei relacionar abstração e proteção de dados pessoais (LGPD)
@@ -256,4 +239,4 @@ Escolha uma base de dados, planilha ou site que você usa com frequência no pro
 ## Links de apoio
 
 - [Lei Geral de Proteção de Dados (Lei nº 13.709/2018)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
-- [Funções em Python — tutorial oficial (em português)](https://docs.python.org/pt-br/3/tutorial/controlflow.html#defining-functions)
+- [Funções em Python - tutorial oficial (em português)](https://docs.python.org/pt-br/3/tutorial/controlflow.html#defining-functions)
